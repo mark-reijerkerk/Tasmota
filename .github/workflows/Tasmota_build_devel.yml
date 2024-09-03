@@ -199,7 +199,7 @@ jobs:
           cp ./platformio_tasmota_core3_env_sample.ini ./platformio_tasmota_core3_env.ini
           cp ./platformio_override_sample.ini ./platformio_override.ini
       - name: Download safeboot firmwares
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: firmware_safeboot
           path: ./firmware
@@ -238,7 +238,7 @@ jobs:
           cp ./platformio_tasmota_core3_env_sample.ini ./platformio_tasmota_core3_env.ini
           cp ./platformio_override_sample.ini ./platformio_override.ini
       - name: Download safeboot firmwares
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: firmware_safeboot
           path: ./firmware
